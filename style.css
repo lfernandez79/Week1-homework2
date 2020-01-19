@@ -2,3 +2,6 @@ body {
 font-family:'Roboto Condensed';
 }
  
+main {
+    border: solid black 1px;
+}
