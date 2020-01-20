@@ -1,8 +1,17 @@
+
 body {
 font-family:'Roboto Condensed';
 }
  
 main {
     border: solid black 1px;
-    
+}
+
+/* Sticky footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
 }
