@@ -2,6 +2,19 @@
 body {
 font-family:'Roboto Condensed';
 }
+
+header  {
+    border-bottom: solid 1px ;
+    border-color: #d2e3f5;
+}
+
+h3 {
+
+}
+
+a {
+    color: text-info;
+}
  
 main {
     border: solid black 1px;
