@@ -1,6 +1,8 @@
 
+/* apply to all HTML */
 body {
 font-family:'Roboto Condensed';
+background-color: lightgrey;
 }
 
 header  {
@@ -8,13 +10,11 @@ header  {
     border-color: #d2e3f5;
 }
 
-h3 {
-
-}
-
 a {
-    color: text-info;
+    color: #17a2b8;
 }
+
+
  
 main {
     border: solid black 1px;
@@ -28,3 +28,10 @@ footer {
     width: 100%;
 
 }
+
+/* for Contact.html */
+
+form {
+    color: #17a2b8;
+}
+
