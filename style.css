@@ -6,21 +6,34 @@ background-color: lightgrey;
 }
 
 header  {
-    border-bottom: solid 1px ;
+    border-bottom: solid 1.5px ;
     border-color: #d2e3f5;
+    color: #17a2b8;
+}
+
+h2 {
+    color: #17a2b8;
 }
 
 a {
     color: #17a2b8;
 }
 
-
+p {
+    line-height: 2em;
+    color: grey;
+}
  
 main {
-    border: solid black 1px;
+    border: solid #17a2b8 1px;
 }
 
 /* Sticky footer */
+footer p {
+color: white;
+
+}
+
 footer {
     position: fixed;
     left: 0;
