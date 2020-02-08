@@ -1,31 +1,37 @@
 
 /* apply to all HTML */
 body {
-font-family:'Roboto Condensed';
-background-color: lightgrey;
+font-family: 'Architects Daughter', cursive;
+background-image: linear-gradient(to right, rgb(139, 205, 228), lightyellow);
 }
 
-header  {
-    border-bottom: solid 1.5px ;
-    border-color: #d2e3f5;
-    color: #17a2b8;
-}
 
 h2 {
-    color: #17a2b8;
+    color: black;
+}
+
+h3 {
+    color: gray;
 }
 
 a {
-    color: #17a2b8;
+    color: black;
 }
 
 p {
     line-height: 2em;
     color: grey;
 }
+
+#grayscale {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  border-radius: 40%;
+  box-shadow: 10px 10px 5px grey;
+}
  
 main {
-    border: solid #17a2b8 1px;
+    border-style: hidden;
 }
 
 /* Sticky footer */
@@ -35,11 +41,19 @@ color: white;
 }
 
 footer {
+    border-style: hidden;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+}
 
+h2 i {
+    color: red;
+}
+
+a i {
+    color: #0077b5;
 }
 
 /* for Contact.html */
