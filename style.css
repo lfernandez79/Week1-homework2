@@ -3,6 +3,7 @@
 body {
 font-family: 'Architects Daughter', cursive;
 background-image: linear-gradient(to right, rgb(139, 205, 228), lightyellow);
+
 }
 
 
@@ -48,13 +49,16 @@ footer {
     width: 100%;
 }
 
-h2 i {
-    color: red;
+h3 i {
+    color: rgb(54, 152, 212);
+    margin-right: 10px;
 }
 
 a i {
     color: #0077b5;
 }
+
+.
 
 /* for Contact.html */
 
