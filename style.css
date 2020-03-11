@@ -1,8 +1,9 @@
-
+@import "../leoPortfolio/node_modules/bootstrap/scss/bootstrap.scss";
 /* apply to all HTML */
 body {
-font-family: 'Architects Daughter', cursive;
-background-image: linear-gradient(to right, rgb(139, 205, 228), lightyellow);
+font-family: 'Baloo Bhaina 2', cursive;
+/* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(236, 77, 77)); */
+/* background-color: white; */
 
 }
 
@@ -21,7 +22,8 @@ a {
 
 p {
     line-height: 2em;
-    color: grey;
+    color: black;
+    text-align: justify;
 }
 
 #grayscale {
@@ -56,13 +58,27 @@ h3 i {
 
 a i {
     color: #0077b5;
+    margin-left: 10px;
 }
-
-.
 
 /* for Contact.html */
 
 form {
     color: #17a2b8;
 }
+
+/* Letter motion effect  second p tag*/
+.ml12 {
+  color: darkkhaki;
+  font-weight: bolder;
+}
+
+/* .ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+} */
+
+
+
+
 
