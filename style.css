@@ -5,8 +5,6 @@ font-family: 'Baloo Bhaina 2', cursive;
 /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(236, 77, 77)); */
 /* background-color: white; */
 
-
-
 }
 
 
@@ -15,7 +13,7 @@ h2 {
 }
 
 h3 {
-    color: gray;
+    color: black;
 }
 
 a {
@@ -71,7 +69,7 @@ form {
 
 /* Letter motion effect  second p tag*/
 .ml12 {
-  color: darkkhaki;
+  color: black;
   font-weight: bolder;
 }
 
