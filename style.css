@@ -31,7 +31,7 @@ p {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
   border-radius: 40%;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px lightgrey;
 }
  
 main {
