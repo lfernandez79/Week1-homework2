@@ -37,8 +37,10 @@ a {
 p {
     line-height: 1em;
     color: rgba(0, 0, 0, 0.473);
-    text-align: justify;
-    text-shadow: 2px 2px lightgray;
+    text-align: end;
+    font-size: 30px;
+    font-family: Abel;
+    
 }
 
 #grayscale {
