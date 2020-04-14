@@ -6,6 +6,19 @@ font-family: 'Baloo Bhaina 2', cursive;
 /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(236, 77, 77)); */
 /* background-color: white; */
 
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
@@ -22,9 +35,10 @@ a {
 }
 
 p {
-    line-height: 2em;
-    color: black;
+    line-height: 1em;
+    color: rgba(0, 0, 0, 0.473);
     text-align: justify;
+    text-shadow: 2px 2px lightgray;
 }
 
 #grayscale {
@@ -43,6 +57,13 @@ footer p {
 color: white;
 
 }
+header {
+  background: linear-gradient(-45deg, #006cfa36, #3a3c3d77);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 footer {
     border-style: hidden;
@@ -50,6 +71,11 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+
+  background: linear-gradient(-45deg, #006cfa36, #3a3c3d77);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h3 i {
