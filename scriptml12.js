@@ -9,14 +9,14 @@ anime.timeline({ loop: true })
         translateZ: 0,
         opacity: [0, 1],
         easing: "easeOutExpo",
-        duration: 1000,
+        duration: 1200,
         delay: (el, i) => 500 + 30 * i
     }).add({
         targets: '.ml12 .letter',
         translateX: [0, -30],
         opacity: [1, 0],
         easing: "easeInExpo",
-        duration: 10000,
+        duration: 9000,
         delay: (el, i) => 100 + 30 * i
     });
 
