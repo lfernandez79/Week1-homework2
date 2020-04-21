@@ -142,6 +142,10 @@ hr {
   background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
 }
 
+.card {
+  background-color: transparent;
+}
+
 
 
 
